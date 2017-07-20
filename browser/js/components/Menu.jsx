@@ -5,7 +5,7 @@ const menuInfo = [
   {
     id: 0,
     title: 'My Background',
-    imageSrc: '../../images/ibbio.png',
+    imageSrc: '../../images/iBBio.png',
     imageAlt: 'students',
     blurb: 'teacher => learner => coder',
     link: 'background'
