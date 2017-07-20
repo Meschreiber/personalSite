@@ -23,3 +23,30 @@ a.icon:link, a.icon:visited {
 a.icon:hover {
   color: #00BFA5;
 }
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.img-circle {
+    border-radius: 50%;
+    height: 223px;
+}
+
+.menuItem {
+  text-align: center;
+}
+
+.menuItem > a:link,  .menuItem > a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+.menuItem > a.icon:hover {
+  text-decoration: underline;
+}
+
