@@ -8,9 +8,14 @@ const styles = {
     justifyContent: 'space-around',
   },
   gridList: {
-    width: 600,
-    height: 450,
+    width: '700px',
+    height: '450px',
     overflowY: 'auto',
+  },
+    gridTile: {
+    width: '328px',
+    height: '185px',
+    margin: '10px'
   },
 };
 
@@ -61,13 +66,15 @@ const Portfolio = () => (
       <div style={styles.root}>
         <GridList
           cellHeight={150}
-          cols={3}
+          cols={2}
           style={styles.gridList}
+          padding={10}
         >
           {tilesData.map((tile) => (
             <GridTile
               key={tile.img}
               title={tile.title}
+              style={styles.gridTile}
             >
               <img src={tile.img} />
             </GridTile>
