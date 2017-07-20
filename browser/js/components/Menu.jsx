@@ -3,6 +3,7 @@ import MenuItem from './MenuItem.jsx'
 
 const menuInfo = [
   {
+    id: 0,
     title: 'My Background',
     imageSrc: '../../images/ibbio.png',
     imageAlt: 'students',
@@ -10,6 +11,7 @@ const menuInfo = [
     link: 'background'
   },
   {
+    id: 1,
     title: 'My Work',
     imageSrc: '../../images/code.png',
     imageAlt: 'computer',
@@ -17,6 +19,7 @@ const menuInfo = [
     link: 'portfolio'
   },
   {
+    id: 2,
     title: 'Etc.',
     imageSrc: '../../images/kitty.png',
     imageAlt: 'yoga',
@@ -29,9 +32,9 @@ const Menu = () => (
   <div className="container">
     {
       menuInfo.map(item => {
-        const { title, blurb, imageAlt, imageSrc, link } = item
+        const { id, title, blurb, imageAlt, imageSrc, link } = item
         return (
-          <MenuItem title={title} imageSrc={imageSrc} imageAlt={imageAlt} blurb={blurb} link={link} />
+          <MenuItem key={id} title={title} imageSrc={imageSrc} imageAlt={imageAlt} blurb={blurb} link={link} />
         )
       })
     }
