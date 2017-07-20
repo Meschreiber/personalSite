@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom'
 import '../stylesheets/index.scss'
 import firebase from '../../fire/'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
-import Main from './components/Main'
+import Routes from './Routes'
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import injectTapEventPlugin from 'react-tap-event-plugin'
 // Needed for onTouchTap
@@ -27,7 +27,7 @@ const muiTheme = getMuiTheme({
 
 const App = () => (
   <MuiThemeProvider muiTheme={muiTheme}>
-    <Main />
+    <Routes />
   </MuiThemeProvider>
 )
 
