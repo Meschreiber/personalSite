@@ -2,8 +2,24 @@ body {
     font-family: 'Zilla Slab', serif;
 }
 
+footer {
+    text-align: center;
+}
+
 .head {
   text-transform: uppercase;
   font-family: 'Zilla Slab', serif;
   text-align: center;
+}
+
+a.icon {
+  padding: 10px;
+}
+
+a.icon:link, a.icon:visited {
+  color: black;
+}
+
+a.icon:hover {
+  color: #00BFA5;
 }
