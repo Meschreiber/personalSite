@@ -26,7 +26,8 @@ module.exports = {
     extensions: ['.js', '.jsx', '.json', '*']
   },
   module: {
-    rules: [{
+    rules: [
+      {
       test: /jsx?$/,
       exclude: /(node_modules|bower_components)/,
       use: [{
@@ -34,9 +35,10 @@ module.exports = {
         options: {
           presets: ['react', 'es2015', 'stage-2']
         }
-      }]
+      }
+      ]
     }, {
-      test: /\.css$/,
+      test: /\.scss$/,
       use: [
         'style-loader',
         'css-loader',
