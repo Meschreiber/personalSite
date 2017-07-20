@@ -1,10 +1,10 @@
 import React from 'react'
 
 const MenuItem = (props) => {
-  const { title, blurb, imageAlt, imageSrc } = props
+  const { title, blurb, imageAlt, imageSrc, link } = props
   return (
     <div className="menuItem">
-      <a href="">
+      <a href={`#${link}`}>
         <h2>{title}</h2>
         <img className="img-circle" src={imageSrc} alt={imageAlt} />
         <p>{blurb}</p>

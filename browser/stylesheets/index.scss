@@ -46,7 +46,20 @@ a.icon:hover {
   text-decoration: none;
 }
 
-.menuItem > a.icon:hover {
+.menuItem > a:hover {
   text-decoration: underline;
 }
 
+h1 {
+  text-align: center
+}
+
+p > a:link, p > a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+p > a:hover {
+  color: #00BFA5;
+  text-decoration: underline;
+}

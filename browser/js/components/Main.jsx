@@ -1,6 +1,7 @@
 import React from 'react'
 import Topbar from './Topbar'
 import Menu from './Menu'
+import Background from './Background'
 import Footer from './Footer'
 
 
@@ -11,6 +12,8 @@ const Main = () => (
     <br/>
     <h1>See what I'm all about...</h1>
     <Menu />
+    <hr />
+    <Background />
     <hr />
     <Footer />
   </div>
