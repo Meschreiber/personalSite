@@ -5,12 +5,12 @@ const styles = {
   root: {
     display: 'flex',
     flexWrap: 'wrap',
-    justifyContent: 'space-around'
+    justifyContent: 'space-around',
+    width: '100%'
   },
   gridList: {
     display: 'flex',
     flexWrap: 'nowrap',
-    width: '700px',
     overflowX: 'scroll',
   },
   titleStyle: {
@@ -78,7 +78,7 @@ const Etc = () => (
         <li>Cooking and baking -- the more time-consuming, the better 🍰 </li>
         <li>My cat Lola 😻</li>
       </ul>
-      <p> Checkout some of my loves and creations below. </p>
+      <p> Scroll through some of my loves and creations below. </p>
       <div style={styles.root}>
         <GridList style={styles.gridList} cols={2.2}>
           {tilesData.map((tile) => (
