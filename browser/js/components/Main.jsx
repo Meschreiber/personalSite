@@ -10,13 +10,18 @@ import Footer from './Footer'
 const Main = () => (
   <div>
     <Topbar />
-    <img src="../../images/rubberducks.jpg" alt="Duckies" style={{width: 100 + '%'}} />
-    <br/>
+    <img src="../../images/rubberducks.jpg" alt="Duckies" style={{ width: 100 + '%' }} />
+    <br />
     <Menu />
     <hr />
     <Background />
     <Portfolio />
     <Etc />
+    <hr />
+    <div className="simpleContainer">
+      <h3>Contact Me</h3>
+      <p> If you'd like to contact me, please e-mail me at <a href="mailto:meschreiber3@gmail.com">meschreiber3@gmail.com</a>. I look forward to hearing from you. </p>
+    </div>
     <hr />
     <Footer />
   </div>

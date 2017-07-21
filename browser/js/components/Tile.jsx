@@ -4,7 +4,7 @@ const Tile = (props) => {
   const { img, title, link, blurb } = props
   return (
     <div className="col-sm col-md-4 tile">
-      <img src={img}/>
+      <img src={img} className="center"/>
       <h5><a href={link}>{title}</a></h5>
       <p>{blurb}</p>
     </div>
