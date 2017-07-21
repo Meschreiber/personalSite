@@ -9,8 +9,14 @@ body {
   margin-right: 10%;
 }
 
+.simpleContainer {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 h1 {
   text-align: center;
+  padding: 3%;
 }
 
 h3 {
@@ -39,8 +45,8 @@ img {
   font-family: 'PT Sans', serif;
   text-transform: uppercase;
   width: 100%;
-  top: 10px;
-  padding-top: 1.5%;
+  top: 5px;
+  padding-top: 2%;
   position: fixed;
   z-index: 10;
 }
@@ -121,6 +127,10 @@ a > p {
 .tile > p {
   margin-bottom: 2%;
 }
+
+/* ETC STYLING */
+
+
 
 /* FOOTER STYLING */
 
