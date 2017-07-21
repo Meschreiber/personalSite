@@ -1,14 +1,131 @@
 body {
+    font-family: 'PT Sans', serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+p > a:link, p > a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+p > a:hover {
+  color: #00BFA5;
+  text-decoration: underline;
+}
+
+img {
+  z-index: -1;
+}
+
+/* TOP BAR STYLING */
+
+.topBar {
+  background-color: #212121;
+  color: white;
+  font-family: 'PT Sans', serif;
+  text-transform: uppercase;
+  width: 100%;
+  top: 10px;
+  padding-top: 1.5%;
+  position: fixed;
+  z-index: 10;
+}
+
+p.topName {
+  font-size: 1.5em;
+}
+
+.topBar > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.topbar {
+    display: inline;
+}
+
+
+a.topIcon {
+  padding: 10px;
+}
+
+a.topIcon:link, a.topIcon:visited {
+  color:white;
+}
+
+a.topIcon:hover {
+  color: #00BFA5;
+}
+
+/* MENU STYLING */
+#menu {
     font-family: 'Zilla Slab', serif;
 }
 
-footer {
-    text-align: center;
+#menu > p {
+  padding: 5%;
 }
 
-.head {
+a > p {
+  margin: 20px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    height: 223px;
+}
+
+.center {
+  text-align: center;
+  font-weight: bold;
+}
+
+.menuItem > a:link,  .menuItem > a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.menuItem > a:hover {
+  color: #00BFA5;
+}
+
+/* PORTFOLIO STYLING */
+
+.tile > img {
+  height: 185px;
+  width: 328px;
+  border-radius: 5%;
+  margin: 5% 0 2% 0;
+
+}
+
+.tile > h5 {
   text-transform: uppercase;
-  font-family: 'Zilla Slab', serif;
+}
+
+.tile > p {
+  margin-bottom: 2%;
+}
+
+/* FOOTER STYLING */
+
+footer {
+    text-align: center;
 }
 
 a.icon {
@@ -23,46 +140,3 @@ a.icon:hover {
   color: #00BFA5;
 }
 
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.img-circle {
-    border-radius: 50%;
-    height: 223px;
-}
-
-.menuItem {
-  text-align: center;
-}
-
-.menuItem > a:link,  .menuItem > a:visited{
-  color: black;
-  text-decoration: none;
-}
-
-.menuItem > a:hover {
-  color: #00BFA5;
-}
-
-h1 {
-  text-align: center;
-}
-
-h3 {
-  text-transform: uppercase;
-}
-
-p > a:link, p > a:visited{
-  color: black;
-  text-decoration: none;
-}
-
-p > a:hover {
-  color: #00BFA5;
-  text-decoration: underline;
-}

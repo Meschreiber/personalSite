@@ -1,23 +1,5 @@
 import React from 'react'
-import { GridList, GridTile } from 'material-ui/GridList';
-
-const styles = {
-  root: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    justifyContent: 'space-around',
-  },
-  gridList: {
-    width: '700px',
-    height: '450px',
-    overflowY: 'auto',
-  },
-    gridTile: {
-    width: '328px',
-    height: '185px',
-    margin: '10px'
-  },
-};
+import Tile from './Tile'
 
 const tilesData = [
   {
@@ -54,7 +36,7 @@ const tilesData = [
     img: '../../images/portfolio/OSM.png',
     title: 'OSM Data Wrangling',
     link: 'https://github.com/Meschreiber/OSM-Santiago',
-    blurb: 'This is a thorough cleaning and casual querying of data from https://www.openstreetmap.org on Santiago, Chile.  A variety of data munging techniques were implemented in Python and the quality of the data was assessed on validity, accuracy, completeness, consistency and uniformity. SQL querying revealed that most of the data was concentrated in wealthier neighborhoods.'
+    blurb: 'This is a thorough cleaning and casual querying of data from https://www.openstreetmap.org on Santiago, Chile.  A variety of data munging techniques were implemented in Python and the quality of the data was assessed on validity, accuracy, completeness, consistency and uniformity. SQL querying revealed that most of the data were concentrated in wealthier neighborhoods.'
   }
 ];
 
@@ -62,24 +44,18 @@ const Portfolio = () => (
   <div id="portfolio" className="container">
     <div>
       <h3>My work</h3>
-      <p>I've loved programming for a long time.  In middle school I taught myself HTML and CSS so I could make a good ol' Geocities page.  In high school, I graduated to studying <b>C++</b> and <b>Java</b>.  My computer science skills lay dormant until I began taking online classes in <b>Python, R</b>, and <b>SQL</b> while working as a teacher.  The stack I am now most comfortable with is <b>Node, Express, PostgresQl, React and Redux</b>, though I am constantly learning new technologies.</p>
-      <div style={styles.root}>
-        <GridList
-          cellHeight={150}
-          cols={2}
-          style={styles.gridList}
-          padding={10}
-        >
-          {tilesData.map((tile) => (
-            <GridTile
-              key={tile.img}
-              title={tile.title}
-              style={styles.gridTile}
-            >
-              <img src={tile.img} />
-            </GridTile>
-          ))}
-        </GridList>
+      <p>I've loved programming for a long time.  In middle school I taught myself HTML and CSS so I could make a good ol' Geocities page.  In high school, I graduated to studying <b>C++</b> and <b>Java</b>.  My computer science skills lay dormant until I began taking online classes in <b>Python, R</b>, and <b>SQL</b> while working as a teacher.  The stack I am now most comfortable with is <b>Node, Express, PostgresQl, React and Redux</b>, though I am constantly learning new technologies.  Check out some of my projects below.</p>
+      <br />
+      <div className="row">
+        {tilesData.map((tile) => (
+          <Tile
+            key={tile.img}
+            img={tile.img}
+            title={tile.title}
+            link={tile.link}
+            blurb={tile.blurb}
+          />
+        ))}
       </div>
     </div>
   </div>

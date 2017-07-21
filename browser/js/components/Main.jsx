@@ -12,7 +12,6 @@ const Main = () => (
     <Topbar />
     <img src="../../images/rubberducks.jpg" alt="Duckies" style={{width: 100 + '%'}} />
     <br/>
-    <h1>See what I'm all about...</h1>
     <Menu />
     <hr />
     <Background />

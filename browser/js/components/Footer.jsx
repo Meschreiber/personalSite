@@ -4,7 +4,7 @@ const Footer = () => (
   <footer>
     <p> © 2017 | Handcoded with love </p>
     <div className="icons">
-      <a className="icon" href="https://github.com/meschreiber" target="_blank">
+      <a className="icon" href="../../Maria_Schreiber_Resume.pdf" target="_blank">
         <i className="fa fa-file-pdf-o fa-2x" />
       </a>
       <a className="icon" href="https://github.com/meschreiber" target="_blank">
