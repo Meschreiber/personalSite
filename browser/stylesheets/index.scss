@@ -17,7 +17,7 @@ h3 {
   text-transform: uppercase;
 }
 
-p > a:link, p > a:visited{
+p > a:link, p > a:visited {
   color: black;
   text-decoration: none;
 }
@@ -27,9 +27,13 @@ p > a:hover {
   text-decoration: underline;
 }
 
+img {
+  z-index: -1;
+}
+
 /* TOP BAR STYLING */
 
-.topBar{
+.topBar {
   background-color: #212121;
   color: white;
   font-family: 'PT Sans', serif;
@@ -38,6 +42,7 @@ p > a:hover {
   top: 10px;
   padding-top: 1.5%;
   position: fixed;
+  z-index: 10;
 }
 
 p.topName {
@@ -72,25 +77,49 @@ a.topIcon:hover {
     font-family: 'Zilla Slab', serif;
 }
 
+#menu > p {
+  padding: 5%;
+}
+
 a > p {
   margin: 20px;
 }
+
 .img-circle {
     border-radius: 50%;
     height: 223px;
 }
 
-.menuItem {
+.center {
   text-align: center;
+  font-weight: bold;
 }
 
-.menuItem > a:link,  .menuItem > a:visited{
+.menuItem > a:link,  .menuItem > a:visited {
   color: black;
   text-decoration: none;
 }
 
 .menuItem > a:hover {
   color: #00BFA5;
+}
+
+/* PORTFOLIO STYLING */
+
+.tile > img {
+  height: 185px;
+  width: 328px;
+  border-radius: 5%;
+  margin: 5% 0 2% 0;
+
+}
+
+.tile > h5 {
+  text-transform: uppercase;
+}
+
+.tile > p {
+  margin-bottom: 2%;
 }
 
 /* FOOTER STYLING */

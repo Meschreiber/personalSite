@@ -1,26 +1,11 @@
 import React from 'react'
 
-const styles = {
-  root: {
-    // display: 'flex',
-    // flexWrap: 'wrap',
-    // justifyContent: 'space-around',
-    width: '300px'
-  },
-  img: {
-    height: '185px',
-    width: '328px',
-    borderRadius: '5%'
-  }
-};
-
-
 const Tile = (props) => {
   const { img, title, link, blurb } = props
   return (
-    <div style={styles.root}>
-      <img src={img} style={styles.img} />
-      <p><a href={link}>{title}</a></p>
+    <div className="col-sm col-md-4 tile">
+      <img src={img}/>
+      <h5><a href={link}>{title}</a></h5>
       <p>{blurb}</p>
     </div>
   )

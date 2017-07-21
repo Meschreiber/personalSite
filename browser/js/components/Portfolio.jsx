@@ -1,24 +1,5 @@
 import React from 'react'
-// import { GridList, GridTile } from 'material-ui/GridList';
 import Tile from './Tile'
-
-const styles = {
-  root: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    justifyContent: 'space-around',
-  },
-  gridList: {
-    width: '700px',
-    height: '450px',
-    overflowY: 'auto',
-  },
-  gridTile: {
-    width: '328px',
-    height: '185px',
-    margin: '10px'
-  },
-};
 
 const tilesData = [
   {
@@ -64,9 +45,11 @@ const Portfolio = () => (
     <div>
       <h3>My work</h3>
       <p>I've loved programming for a long time.  In middle school I taught myself HTML and CSS so I could make a good ol' Geocities page.  In high school, I graduated to studying <b>C++</b> and <b>Java</b>.  My computer science skills lay dormant until I began taking online classes in <b>Python, R</b>, and <b>SQL</b> while working as a teacher.  The stack I am now most comfortable with is <b>Node, Express, PostgresQl, React and Redux</b>, though I am constantly learning new technologies.  Check out some of my projects below.</p>
-      <div >
+      <br />
+      <div className="row">
         {tilesData.map((tile) => (
           <Tile
+            key={tile.img}
             img={tile.img}
             title={tile.title}
             link={tile.link}

@@ -2,7 +2,7 @@ import React from 'react'
 
 
 const Topbar = () => (
-  <div className="topBar">
+  <nav className="topBar">
     <div className="container">
       <p className = "topName">Maria Schreiber || Software Engineer </p>
       <ul>
@@ -33,7 +33,7 @@ const Topbar = () => (
         </li>
       </ul>
     </div>
-  </div>
+  </nav>
 )
 
 export default Topbar
