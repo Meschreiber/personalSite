@@ -20,7 +20,7 @@ const Tile = (props) => {
   return (
     <div style={styles.root}>
       <img src={img} style={styles.img} />
-      <a href={link}><p>{title}</p></a>
+      <p><a href={link}>{title}</a></p>
       <p>{blurb}</p>
     </div>
   )

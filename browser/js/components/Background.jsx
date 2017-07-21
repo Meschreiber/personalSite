@@ -9,7 +9,7 @@ const Background = () => (
     </div>
     <figure>
     <img src="../../images/geo.png" style={{height: 200 + 'px', padding: 2 + '%'}} />
-    <figcaption>Some of my former students. *I did not pose them this way.*</figcaption>
+    <figcaption><p>Some of my former students.</p> <p>*I did not make them pose.*</p></figcaption>
     </figure>
   </div>
 )

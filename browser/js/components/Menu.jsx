@@ -29,17 +29,21 @@ const menuInfo = [
 ]
 
 const Menu = () => (
-  <div className="container">
-    {
-      menuInfo.map(item => {
-        const { id, title, blurb, imageAlt, imageSrc, link } = item
-        return (
-          <MenuItem key={id} title={title} imageSrc={imageSrc} imageAlt={imageAlt} blurb={blurb} link={link} />
-        )
-      })
-    }
+  <div id="menu">
+    <h1>See what I'm all about...</h1>
+    <div className="row">
+      {
+        menuInfo.map(item => {
+          const { id, title, blurb, imageAlt, imageSrc, link } = item
+          return (
+            <MenuItem key={id} title={title} imageSrc={imageSrc} imageAlt={imageAlt} blurb={blurb} link={link} />
+          )
+        })
+      }
+    </div>
   </div>
 )
+
 
 export default Menu
 

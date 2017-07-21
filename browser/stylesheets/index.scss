@@ -1,5 +1,30 @@
 body {
-    font-family: 'Zilla Slab', serif;
+    font-family: 'PT Sans', serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+p > a:link, p > a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+p > a:hover {
+  color: #00BFA5;
+  text-decoration: underline;
 }
 
 /* TOP BAR STYLING */
@@ -10,6 +35,8 @@ body {
   font-family: 'PT Sans', serif;
   text-transform: uppercase;
   width: 100%;
+  top: 10px;
+  padding-top: 1.5%;
   position: fixed;
 }
 
@@ -40,37 +67,14 @@ a.topIcon:hover {
   color: #00BFA5;
 }
 
-
-
-footer {
-    text-align: center;
+/* MENU STYLING */
+#menu {
+    font-family: 'Zilla Slab', serif;
 }
 
-.head {
-  text-transform: uppercase;
-  font-family: 'Zilla Slab', serif;
+a > p {
+  margin: 20px;
 }
-
-a.icon {
-  padding: 10px;
-}
-
-a.icon:link, a.icon:visited {
-  color: black;
-}
-
-a.icon:hover {
-  color: #00BFA5;
-}
-
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
 .img-circle {
     border-radius: 50%;
     height: 223px;
@@ -89,20 +93,21 @@ a.icon:hover {
   color: #00BFA5;
 }
 
-h1 {
-  text-align: center;
+/* FOOTER STYLING */
+
+footer {
+    text-align: center;
 }
 
-h3 {
-  text-transform: uppercase;
+a.icon {
+  padding: 10px;
 }
 
-p > a:link, p > a:visited{
+a.icon:link, a.icon:visited {
   color: black;
-  text-decoration: none;
 }
 
-p > a:hover {
+a.icon:hover {
   color: #00BFA5;
-  text-decoration: underline;
 }
+
