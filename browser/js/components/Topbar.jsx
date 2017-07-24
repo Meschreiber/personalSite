@@ -5,7 +5,11 @@ const Topbar = () => (
   <nav className="navbar navbar-inverse topBar">
     <div className="container-fluid">
       <div className="navbar-header">
-        <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <button
+        type="button"
+        className="navbar-toggle collapsed"
+        data-toggle="collapse"
+        data-target=".navbar-collapse">
           <span className="icon-bar" />
           <span className="icon-bar" />
           <span className="icon-bar" />
