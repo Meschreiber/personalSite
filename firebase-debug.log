@@ -1,0 +1,28 @@
+[debug] [2017-07-25T14:44:14.555Z] ----------------------------------------------------------------------
+[debug] [2017-07-25T14:44:14.560Z] Command:      /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-07-25T14:44:14.561Z] CLI Version:  3.9.1
+[debug] [2017-07-25T14:44:14.561Z] Platform:     darwin
+[debug] [2017-07-25T14:44:14.561Z] Node Version: v7.9.0
+[debug] [2017-07-25T14:44:14.562Z] Time:         Tue Jul 25 2017 10:44:14 GMT-0400 (EDT)
+[debug] [2017-07-25T14:44:14.562Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-25T14:44:14.587Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-25T14:44:14.587Z] > authorizing via signed-in user
+[debug] [2017-07-25T14:44:14.599Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/personal-8ec82  
+ Tue Jul 25 2017 10:44:14 GMT-0400 (EDT)
+[debug] [2017-07-25T14:44:15.374Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-25T14:44:15.375Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/personal-8ec82/tokens  
+ Tue Jul 25 2017 10:44:15 GMT-0400 (EDT)
+[debug] [2017-07-25T14:44:15.685Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/maria/Desktop/Dev Stuff/personalSite'...
+[info] 
+[debug] [2017-07-25T14:44:15.691Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/personal-8ec82  
+ Tue Jul 25 2017 10:44:15 GMT-0400 (EDT)
+[debug] [2017-07-25T14:44:16.288Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-25T14:44:16.289Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/22226908616/clients/_:getWebAppConfig  
+ Tue Jul 25 2017 10:44:16 GMT-0400 (EDT)
+[debug] [2017-07-25T14:44:16.668Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: browser
+[info] ✔  hosting: Local server: http://localhost:5000
+

@@ -41,7 +41,7 @@ const tilesData = [
 ];
 
 const Portfolio = () => (
-  <div id="portfolio" className="container">
+  <div className="container">
     <div className="row">
       <div className="col-md-12">
         <h3>My work</h3>

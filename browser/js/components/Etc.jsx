@@ -1,7 +1,7 @@
 import React from 'react'
 import EtcGrid from './EtcGrid'
 const Etc = () => (
-  <div id="etc" className="simpleContainer">
+  <div className="simpleContainer">
     <div className="row">
       <div className="col-md-12">
         <h3>Etc.</h3>

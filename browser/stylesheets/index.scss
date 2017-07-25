@@ -77,6 +77,13 @@ img {
 // }
 
 /* MENU STYLING */
+a.anchor {
+    display: block;
+    position: relative;
+    top: -55px;
+    visibility: hidden;
+}
+
 #menu {
     font-family: 'Zilla Slab', serif;
 }

@@ -8,7 +8,7 @@ const menuInfo = [
     imageSrc: '../../images/iBBio.png',
     imageAlt: 'students',
     blurb: 'teacher => learner => coder',
-    link: 'menu'
+    link: 'background'
   },
   {
     id: 1,
@@ -16,7 +16,7 @@ const menuInfo = [
     imageSrc: '../../images/code.png',
     imageAlt: 'computer',
     blurb: 'check out my portfolio',
-    link: 'background'
+    link: 'portfolio'
   },
   {
     id: 2,

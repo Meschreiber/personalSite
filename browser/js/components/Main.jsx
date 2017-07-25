@@ -14,11 +14,15 @@ const Main = () => (
     <br />
     <Menu />
     <hr />
+    <a className="anchor" id="background"></a>
     <Background />
+    <a className="anchor" id="portfolio"></a>
     <Portfolio />
+    <a className="anchor" id="etc"></a>
     <Etc />
     <hr />
-    <div className="simpleContainer" id="contact">
+    <a className="anchor" id="contact"></a>
+    <div className="simpleContainer">
       <h3>Contact Me</h3>
       <p> If you'd like to contact me, please e-mail me at <a href="mailto:meschreiber3@gmail.com">meschreiber3@gmail.com</a>. I look forward to hearing from you. </p>
     </div>

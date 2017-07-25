@@ -18,8 +18,8 @@ const Topbar = () => (
       </div>
       <div className="collapse navbar-collapse">
         <ul className="nav navbar-nav">
-          <li><a href="#menu">Background</a></li>
-          <li><a href="#background">Work</a></li>
+          <li><a href="#background">Background</a></li>
+          <li><a href="#portfolio">Work</a></li>
           <li><a href="#etc">Etc.</a></li>
           <li><a href="../../Maria_Schreiber_Resume.pdf" download>Resume</a></li>
           <li><a href="#contact">Contact Me</a></li>
