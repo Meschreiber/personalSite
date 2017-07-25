@@ -21,7 +21,7 @@ const Topbar = () => (
           <li><a href="#background">Background</a></li>
           <li><a href="#portfolio">Work</a></li>
           <li><a href="#etc">Etc.</a></li>
-          <li><a href="../../Maria_Schreiber_Resume.pdf" download>Resume</a></li>
+          <li><a href="../../MariaSchreiberResume.pdf" download>Resume</a></li>
           <li><a href="#contact">Contact Me</a></li>
         </ul>
         <ul className="nav navbar-nav navbar-right">
