@@ -5,7 +5,7 @@ const Etc = () => (
     <div className="row">
       <div className="col-md-12">
         <h3>Etc.</h3>
-        <p>These are some some additional things I love spending time on:</p>
+        <p>These are some other things I love spending time on:</p>
         <ul>
           <li>Yoga 🙏🏼</li>
           <li>Hiking ⛰ </li>
