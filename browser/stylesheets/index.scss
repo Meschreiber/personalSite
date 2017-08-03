@@ -21,6 +21,7 @@ h1 {
 
 h3 {
   text-transform: uppercase;
+  padding-bottom: 10px;
 }
 
 p > a:link, p > a:visited {
@@ -80,7 +81,7 @@ img {
 a.anchor {
     display: block;
     position: relative;
-    top: -55px;
+    top: -60px;
     visibility: hidden;
 }
 
@@ -115,6 +116,15 @@ a > p {
   color: #00BFA5;
 }
 
+
+// #imgContainer {
+//   line-height: 210px;
+// }
+
+#imgContainer img {
+    margin: 15%;
+}
+
 /* PORTFOLIO STYLING */
 
 .tile > img {
@@ -132,8 +142,6 @@ a > p {
 .tile > p {
   margin-bottom: 2%;
 }
-
-/* ETC STYLING */
 
 
 

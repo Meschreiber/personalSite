@@ -14,10 +14,9 @@ const Background = () => (
           </a> </p>
 
         </div>
-        <div className="col-md-3 center">
+        <div className="col-md-3 center" id="imgContainer">
           <figure>
-            <img src="../../images/geo.png" style={{ height: 250 + 'px', padding: 2 + '%', borderRadius: 1 + '%'}} />
-            <figcaption><p>Some more of my former students.  *I did not make them pose for this photo.*</p></figcaption>
+            <img src="../../images/profile.jpg" style={{ height: 200 + 'px', padding: 2 + '%', borderRadius: 5 + '%'}} />
           </figure>
         </div>
       </div>

@@ -16,8 +16,12 @@ const Main = () => (
     <hr />
     <a className="anchor" id="background"></a>
     <Background />
+    <br />
+    <hr />
+    <br />
     <a className="anchor" id="portfolio"></a>
     <Portfolio />
+    <hr />
     <a className="anchor" id="etc"></a>
     <Etc />
     <hr />
