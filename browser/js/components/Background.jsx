@@ -16,7 +16,7 @@ const Background = () => (
         </div>
         <div className="col-md-3 center" id="imgContainer">
           <figure>
-            <img src="../../images/profile.jpg" style={{ height: 200 + 'px', padding: 2 + '%', borderRadius: 5 + '%'}} />
+            <img src="../../images/profile2.png" style={{ height: 300 + 'px', padding: 2 + '%', borderRadius: 5 + '%'}} />
           </figure>
         </div>
       </div>
